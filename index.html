@@ -1,38 +1,64 @@
-<!-- Google Homepage Tutorial -->
-<!Doctype HTML>
+<!-- Google Homepage TOP Project-->
+<!DOCTYPE html>
 <html>
     <head>
-        <title> Google Homepage Example </title>
+        <title>Google</title>
         <meta charset="utf-8">
-        <link rel=stylesheet href="style.css" type="text/css">
+        <link href="style.css" rel="stylesheet" type="text/css">
     </head>
 
     <body>
+        <!--Top Navigation Bar-->
         <div class="topnav">
-          <ul>
-            <li class="left">About</li>                        
-            <li class="left">Store</li>
-            <li class="right" id="signin">Sign In</li>
-            <li class="rightImg"> <img src="app dots.png" alt="appDots" style="width:28px;height:28px";></li>
-            <li class="right">Images</li>                   
-            <li class="right">Gmail</li>    
-          </ul>
-          </div>
-
+            <ul>
+                <li class="fleft"><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
+                <li class="fleft"><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
+                <li class="fright" id="signin"><a class="signin" href="https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/%3Fgws_rd%3Dssl">Sign In</a></li>
+                <li class="fright"><a href="https://www.google.com/intl/en/about/products?tab=wh">Apps</a></li>
+                <li class="fright"><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
+                <li class="fright"><a href="https://www.google.com/gmail/about/#">Gmail</a></li>    
+            </ul>
+        </div>
+        <!--End of Top Navigation Bar-->
+        
+        
+        <!--Middle of Web Page-->
         <center>
-            <div><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo"></div>
-        </center>
-        <div>
+            <div>
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Logo">
+            </div>
+            
+            <!--Search Box-->
+            <div>
                 <form>
                     <input type="text">
                 </form>
             </div>
+            <!--End of Search Box-->
 
-        <div class="bottom">
-            <ul>
-                <li class="footer">Advertising</li>
-                <li class="footer">Business</li>
+            <!--Submitting Buttons-->
+            <div>
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </div>
+            <!--End of Submitting Buttons-->
+        
+        </center>
+        <!--End of Middle-->
+
+        <!--Footer Bar-->
+        <div class="fnav">
+            <ul class="bottom">
+                <li class="footer"><a href="https://ads.google.com/intl/en_us/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2m--ahpm-0000000021-0000000000&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a></li>
+                <li class="footer"><a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Business</a></li>
+                <li class="footer"><a href="https://www.google.com/search/howsearchworks/?fg=1">How Search works</a></li>
+                <li class="rfooter"><a href="https://www.google.com/preferences?hl=en">Settings</a></li>
+                <li class="rfooter"><a href="https://policies.google.com/terms?fg=1">Terms</a></li>
+                <li class="rfooter"><a href="https://policies.google.com/privacy?fg=1">Privacy</a></li>
             </ul>
+
         </div>
+        <!--End of Footer Bar-->
+                
     </body>
 </html>

@@ -1,30 +1,65 @@
-.center {
-    display:block;
-    margin-left:auto;
-    margin-right: auto;
-    width: 50%;
+li{
+    color: rgba(0,0,0,0.87);
+    font-family: "Arial", "San-Serif";
+    display: inline;
+    font-size: 13px;
 }
-.gLFyf{
-    background-color: transparent;
-    border: none;
-    margin: 0;
+
+li.footer {
+    position: relative;
+    bottom: 10px;
+    padding-left: 15px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 20px 0 0 0;
     padding: 0;
-    color: rgba(0,0,0,.87);
-    word-wrap: break-word;
-     outline: none;
-    display: flex;
-    flex: 100%;
-    -webkit-tap-highlight-color: transparent;
-    margin-top: -37px;
 }
-#fakebox-input{
-    bottom:0;
+
+img {
+    padding-bottom: 25px;
+    position: relative;
+    left: 25px;
+}
+
+input[type=text] {
+    padding: 13px ;
     box-sizing: border-box;
-    left: 0;
-    margin: 0;
-    opacity: 0;
-    padding-inline-start: 20px;
-    position: absolute;
-    top: 0;
-    width: 100%;
+    border-radius: 25px;
+    border-color: rgb(223, 225, 229);
+    width: 550px;
+}
+
+}
+input,
+textarea,
+button {
+  border: 1px solid gray; 
+}
+
+li.right{
+    padding-right: 15px;
+    float: right;
+}
+
+li.rightImg{
+    padding-right: 15px;
+    padding-top: 0px;
+    float: right;
+}
+
+li.left{
+    padding-left: 15px;
+}
+
+#signin {
+    background-color: rgb(66, 133, 244);
+    color: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+    border-color: rgb(66, 133, 244);
+    position: relative;
+    bottom: 5px;
+    border: 1px rgb(66, 133, 244) solid;
 }

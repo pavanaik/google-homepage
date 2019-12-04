@@ -29,11 +29,6 @@ li {
     
 }
 
-#hptl{
-    position: absolute;
-    margin: 7px 0 0 10px;
-}
-
 li.fright {
     float: right;
     padding-right: 15px;
@@ -48,7 +43,7 @@ li.rfooter {
     padding-right: 15px;
 }
 li.footer {
-    padding-left: 15px;
+    padding-left: 27px;
 }
 
 div.fnav {
